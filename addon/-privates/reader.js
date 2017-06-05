@@ -25,7 +25,7 @@ const {
 	},
 } = Ember;
 
-const PAUSE_RESUME_TIMER = 10000;
+const PAUSE_RESUME_TIMER = 200000;
 
 export default Ember.Object.extend(Ember.Evented, {
   isPaused: computed.bool('_paused').readOnly(),
